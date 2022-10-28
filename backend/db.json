@@ -1,0 +1,69 @@
+{
+  "clientes": [
+    {
+      "id": "1",
+      "nome": "Natália Machado",
+      "identificacao": "00900800787",
+      "tipo": "cpf",
+      "habilitacao": "00009348889239",
+      "cep": "46812224",
+      "endereco": "Rua dos códigos",
+      "complemento": "1",
+      "cidade": "Dos Estudos",
+      "estado": "Do Angular",
+      "pais": "Dos FrontEnd"
+    },
+    {
+      "id": "2",
+      "nome": "Heloise Machado",
+      "identificacao": "65465498798798",
+      "tipo": "cpf",
+      "habilitacao": "32165487797879",
+      "cep": "46812224",
+      "endereco": "Rua dos javas",
+      "complemento": "1",
+      "cidade": "do desespero",
+      "estado": "do amor",
+      "pais": "Dos Backend"
+    }
+  ],
+  "carros": [
+    {
+      "marca": "HYUNDAY",
+      "modelo": "HB20s",
+      "ano": "2021",
+      "diaria": "200",
+      "categoria": "SEDAN",
+      "disponivel": "Não",
+      "id": 3
+    },
+    {
+      "marca": "TOYOTA",
+      "modelo": "HILUX",
+      "ano": "2021",
+      "diaria": "300",
+      "categoria": "PICAPE",
+      "disponivel": "Sim",
+      "id": 4
+    },
+    {
+      "marca": "FORD",
+      "modelo": "FIESTA",
+      "ano": "2020",
+      "diaria": "120",
+      "categoria": "SEDAN",
+      "disponivel": "Sim",
+      "id": 5
+    },
+    {
+      "marca": "FIAT",
+      "modelo": "ARGO",
+      "ano": "2022",
+      "diaria": "180",
+      "categoria": "HATCH",
+      "disponivel": "Sim",
+      "id": 6
+    }
+  ],
+  "movimentacoes": []
+}
