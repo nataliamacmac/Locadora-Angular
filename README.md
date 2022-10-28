@@ -3,15 +3,21 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # Backend
 
 abrir a pasta do projeto no terminal
+
 cd backend //comando para mudar de diretório, acessar a pasta backend
+
 npm install // Somente a primeira vez que executar o projeto, para que sejam baixadas as dependencias corretamente. 
+
 npm start //sempre que for inicializar a aplicação backend
 
 # Frontend
 
 abrir a pasta do projeto no terminal
+
 cd frontend //comando para mudar de diretório, acessar a pasta frontend
+
 npm install // Somente a primeira vez que executar o projeto, para que sejam baixadas as dependencias corretamente. 
+
 npm start //sempre que for inicializar a aplicação frontend
 
 ## Development server
