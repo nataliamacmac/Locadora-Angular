@@ -1,30 +1,56 @@
 {
   "clientes": [
     {
-      "id": "1",
-      "nome": "Natália Machado",
-      "identificacao": "00900800787",
-      "tipo": "cpf",
-      "habilitacao": "00009348889239",
-      "cep": "46812224",
-      "endereco": "Rua dos códigos",
-      "complemento": "1",
-      "cidade": "Dos Estudos",
-      "estado": "Do Angular",
-      "pais": "Dos FrontEnd"
-    },
-    {
       "id": "2",
-      "nome": "Heloise Machado",
+      "nome": "Shakira",
       "identificacao": "65465498798798",
       "tipo": "cpf",
       "habilitacao": "32165487797879",
       "cep": "46812224",
       "endereco": "Rua dos javas",
-      "complemento": "1",
+      "complemento": "Apto 1",
       "cidade": "do desespero",
       "estado": "do amor",
       "pais": "Dos Backend"
+    },
+    {
+      "nome": "natalia",
+      "identificacao": "885543351",
+      "tipo": "cpf",
+      "habilitacao": "7423315589",
+      "cep": "36087441",
+      "endereco": "Rua Machado",
+      "complemento": "casa 8",
+      "cidade": "Manaus",
+      "estado": "AM",
+      "pais": "Brasil",
+      "id": "2F8rN54"
+    },
+    {
+      "nome": "Daiana ",
+      "identificacao": "55253236653",
+      "tipo": "rg",
+      "habilitacao": "895135552",
+      "cep": "360475551",
+      "endereco": "Rua Edígio",
+      "complemento": "casa 5",
+      "cidade": "Salvador",
+      "estado": "BA",
+      "pais": "Brasil",
+      "id": "0656lyZ"
+    },
+    {
+      "nome": "Isis",
+      "identificacao": "1457892680001/02",
+      "tipo": "CNPJ",
+      "habilitacao": "75466429895",
+      "cep": "48930333",
+      "endereco": "Rua Barbosa",
+      "complemento": "casa 3",
+      "cidade": "Juiz de Fora",
+      "estado": "MG",
+      "pais": "Brasil",
+      "id": "6s1_lRr"
     }
   ],
   "carros": [
@@ -40,7 +66,7 @@
     {
       "marca": "TOYOTA",
       "modelo": "HILUX",
-      "ano": "2021",
+      "ano": "2021/2021",
       "diaria": "300",
       "categoria": "PICAPE",
       "disponivel": "Sim",
@@ -56,13 +82,22 @@
       "id": 5
     },
     {
-      "marca": "FIAT",
-      "modelo": "ARGO",
+      "marca": "Fiat",
+      "modelo": "Uno",
       "ano": "2022",
-      "diaria": "180",
-      "categoria": "HATCH",
+      "diaria": "150",
+      "categoria": "civic",
       "disponivel": "Sim",
       "id": 6
+    },
+    {
+      "marca": "Chevrolet",
+      "modelo": "onix",
+      "ano": "2021",
+      "diaria": "100",
+      "categoria": "sedan",
+      "disponivel": "Sim",
+      "id": 7
     }
   ],
   "movimentacoes": []

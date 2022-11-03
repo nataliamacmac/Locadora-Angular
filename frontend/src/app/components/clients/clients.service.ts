@@ -46,4 +46,19 @@ export class ClientsService {
     return this.http.get<Clientes>(url)
   }
 
+  readById(id: any): Observable<Clientes> {
+    const url = `${this.baseClientesUrl}/${id}`;
+    return this.http.get<Clientes>(url)
+  }
+
+  alterarClientes(cliente: Clientes): Observable<Clientes> {
+    const url = `${this.baseClientesUrl}/${cliente.id}`;
+    return this.http.put<Clientes>(url, cliente)
+  }
+
+  deletaClientes(id: any): Observable<Clientes> {
+    const url = `${this.baseClientesUrl}/${id}`;
+    return this.http.delete<Clientes>(url)
+  }
+
 }

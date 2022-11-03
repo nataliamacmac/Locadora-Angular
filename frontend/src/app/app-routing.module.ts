@@ -1,3 +1,5 @@
+import { ClientsDeleteComponent } from './components/clients/clients-delete/clients-delete.component';
+import { ClientsAlteracaoComponent } from './components/clients/clients-alteracao/clients-alteracao.component';
 import { LoginComponent } from './components/login/login.component';
 import { ClientsCriarComponent } from './components/clients/clients-criar/clients-criar.component';
 import { ClientsReadComponent } from './components/clients/clients-read/clients-read.component';
@@ -53,6 +55,14 @@ const routes: Routes = [
   {
     path: "login",
     component: LoginComponent,
+  },
+  {
+    path: "clientes/alteracao/:id",
+    component: ClientsAlteracaoComponent,
+  },
+  {
+    path: "clientes/delete/:id",
+    component: ClientsDeleteComponent,
   }
 ];
 
