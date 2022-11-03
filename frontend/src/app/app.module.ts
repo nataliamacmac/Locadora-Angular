@@ -33,7 +33,6 @@ import { CarsCarrinhoComponent } from './components/cars/cars-devolucao/cars-car
 import { ClientComponent } from './views/client/client.component';
 import { ClientsReadComponent } from './components/clients/clients-read/clients-read.component';
 import { ClientsCriarComponent } from './components/clients/clients-criar/clients-criar.component';
-import { LoginComponent } from './components/login/login.component';
 import { ClientsAlteracaoComponent } from './components/clients/clients-alteracao/clients-alteracao.component';
 import { ClientsDeleteComponent } from './components/clients/clients-delete/clients-delete.component';
 
@@ -57,7 +56,6 @@ registerLocaleData(localePt);
     ClientComponent,
     ClientsReadComponent,
     ClientsCriarComponent,
-    LoginComponent,
     ClientsAlteracaoComponent,
     ClientsDeleteComponent
   ],

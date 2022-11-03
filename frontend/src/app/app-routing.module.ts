@@ -1,8 +1,6 @@
 import { ClientsDeleteComponent } from './components/clients/clients-delete/clients-delete.component';
 import { ClientsAlteracaoComponent } from './components/clients/clients-alteracao/clients-alteracao.component';
-import { LoginComponent } from './components/login/login.component';
 import { ClientsCriarComponent } from './components/clients/clients-criar/clients-criar.component';
-import { ClientsReadComponent } from './components/clients/clients-read/clients-read.component';
 import { ClientComponent } from "./views/client/client.component";
 import { CarsCarrinhoComponent } from "./components/cars/cars-devolucao/cars-carrinho/cars-carrinho.component";
 import { CarsDeleteComponent } from "./components/cars/cars-delete/cars-delete.component";
@@ -51,10 +49,6 @@ const routes: Routes = [
   {
     path: "clientes/criar",
     component: ClientsCriarComponent,
-  },
-  {
-    path: "login",
-    component: LoginComponent,
   },
   {
     path: "clientes/alteracao/:id",
