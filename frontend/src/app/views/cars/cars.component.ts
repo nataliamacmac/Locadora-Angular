@@ -5,7 +5,8 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'locadora-cars',
   templateUrl: './cars.component.html',
-  styleUrls: ['./cars.component.css']
+  styleUrls: ['./cars.component.css'],
+  standalone: false
 })
 export class CarsComponent implements OnInit {
 

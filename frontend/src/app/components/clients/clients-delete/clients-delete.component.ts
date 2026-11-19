@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'locadora-clients-delete',
   templateUrl: './clients-delete.component.html',
-  styleUrls: ['./clients-delete.component.css']
+  styleUrls: ['./clients-delete.component.css'],
+  standalone: false
 })
 export class ClientsDeleteComponent implements OnInit {
 

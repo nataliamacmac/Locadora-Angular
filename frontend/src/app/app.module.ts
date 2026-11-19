@@ -16,7 +16,7 @@ import { CarsComponent } from "./views/cars/cars.component";
 import { MovDirective } from "./directives/mov.directive";
 import { CarsCreateComponent } from "./components/cars/cars-create/cars-create.component";
 import { MatSnackBarModule } from "@angular/material/snack-bar";
-import { HttpClientModule } from "@angular/common/http";
+import { provideHttpClient, withInterceptorsFromDi } from "@angular/common/http";
 import { FormsModule } from "@angular/forms";
 import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatInputModule } from "@angular/material/input";
@@ -69,7 +69,6 @@ registerLocaleData(localePt);
     MatCardModule,
     MatButtonModule,
     MatSnackBarModule,
-    HttpClientModule,
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
@@ -82,6 +81,7 @@ registerLocaleData(localePt);
       provide: LOCALE_ID,
       useValue: "pt-BR",
     },
+    provideHttpClient(withInterceptorsFromDi()),
   ],
   bootstrap: [AppComponent],
 })

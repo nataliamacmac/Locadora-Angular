@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'locadora-clients-criar',
   templateUrl: './clients-criar.component.html',
-  styleUrls: ['./clients-criar.component.css']
+  styleUrls: ['./clients-criar.component.css'],
+  standalone: false
 })
 export class ClientsCriarComponent implements OnInit {
 

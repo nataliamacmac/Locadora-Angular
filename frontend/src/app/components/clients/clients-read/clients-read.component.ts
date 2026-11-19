@@ -5,7 +5,8 @@ import { ClientsService } from '../clients.service';
 @Component({
   selector: 'locadora-clients-read',
   templateUrl: './clients-read.component.html',
-  styleUrls: ['./clients-read.component.css']
+  styleUrls: ['./clients-read.component.css'],
+  standalone: false
 })
 export class ClientsReadComponent implements OnInit {
 

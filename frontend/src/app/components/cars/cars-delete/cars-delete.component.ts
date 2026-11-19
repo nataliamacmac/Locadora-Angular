@@ -7,6 +7,7 @@ import { Component, OnInit } from "@angular/core";
   selector: "locadora-cars-delete",
   templateUrl: "./cars-delete.component.html",
   styleUrls: ["./cars-delete.component.css"],
+  standalone: false
 })
 export class CarsDeleteComponent implements OnInit {
   cars: Cars = {
