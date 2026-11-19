@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'locadora-cars-devolucao',
   templateUrl: './cars-devolucao.component.html',
-  styleUrls: ['./cars-devolucao.component.css']
+  styleUrls: ['./cars-devolucao.component.css'],
+  standalone: false
 })
 export class CarsDevolucaoComponent implements OnInit {
 

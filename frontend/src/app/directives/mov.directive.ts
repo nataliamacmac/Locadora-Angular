@@ -1,7 +1,8 @@
 import { Directive, ElementRef } from '@angular/core';
 
 @Directive({
-  selector: '[locadoraMov]'
+  selector: '[locadoraMov]',
+  standalone: false
 })
 export class MovDirective {
   //Alterar o ElementRef boa prática de segurança

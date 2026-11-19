@@ -8,6 +8,7 @@ import { Component, OnInit } from "@angular/core";
   selector: "locadora-cars-alteracao",
   templateUrl: "./cars-alteracao.component.html",
   styleUrls: ["./cars-alteracao.component.css"],
+  standalone: false
 })
 export class CarsAlteracaoComponent implements OnInit {
   cars: Cars = {

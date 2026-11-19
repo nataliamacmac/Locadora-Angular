@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'locadora-clients-alteracao',
   templateUrl: './clients-alteracao.component.html',
-  styleUrls: ['./clients-alteracao.component.css']
+  styleUrls: ['./clients-alteracao.component.css'],
+  standalone: false
 })
 export class ClientsAlteracaoComponent implements OnInit {
 
